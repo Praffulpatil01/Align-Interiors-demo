@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700">
+  <defs>
+    <linearGradient id="rakeshBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1E9DD"/>
+      <stop offset="50%" stop-color="#EAE0D2"/>
+      <stop offset="100%" stop-color="#DFD2C0"/>
+    </linearGradient>
+    <pattern id="diagonalLines" width="20" height="20" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="20" x2="20" y2="0" stroke="#2A2420" stroke-width="0.5" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="700" fill="url(#rakeshBg)"/>
+  <rect width="600" height="700" fill="url(#diagonalLines)"/>
+
+  <!-- Border detail -->
+  <rect x="25" y="25" width="550" height="650" fill="none" stroke="#B4573A" stroke-width="1.5" stroke-opacity="0.3" rx="16"/>
+  <rect x="35" y="35" width="530" height="630" fill="none" stroke="#2A2420" stroke-width="0.75" stroke-opacity="0.2" rx="12"/>
+
+  <!-- Monogram Circle -->
+  <circle cx="300" cy="270" r="110" fill="#FAF6F0" stroke="#2A2420" stroke-width="1.5"/>
+  <circle cx="300" cy="270" r="98" fill="none" stroke="#B4573A" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="300" y="285" font-family="'Playfair Display', Georgia, serif" font-size="64" font-weight="600" fill="#2A2420" text-anchor="middle">RD</text>
+  <text x="300" y="325" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#B4573A" text-anchor="middle" letter-spacing="3">STUDIO PRINCIPAL</text>
+
+  <!-- Name & Title Details -->
+  <text x="300" y="440" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="600" fill="#2A2420" text-anchor="middle">Rakesh Dashpute</text>
+  <text x="300" y="475" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#B4573A" text-anchor="middle" letter-spacing="2">LEAD DESIGNER</text>
+  <line x1="220" y1="505" x2="380" y2="505" stroke="#2A2420" stroke-width="1" stroke-opacity="0.25"/>
+  <text x="300" y="535" font-family="'Inter', sans-serif" font-size="12" fill="#5E554E" text-anchor="middle">Align Architecture &amp; Interiors</text>
+  <text x="300" y="560" font-family="'Inter', sans-serif" font-size="12" fill="#8C827A" text-anchor="middle">Pune, Maharashtra</text>
+
+  <!-- Note -->
+  <rect x="80" y="605" width="440" height="38" rx="8" fill="#FAF6F0" fill-opacity="0.9" stroke="#E3DAD0" stroke-width="0.75"/>
+  <text x="300" y="629" font-family="'Inter', sans-serif" font-size="11" fill="#756D65" text-anchor="middle">Drop actual photo as images/rakesh.jpg to update</text>
+</svg>

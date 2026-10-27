@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgVilla" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6F0"/>
+      <stop offset="100%" stop-color="#F1E9DD"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgVilla)"/>
+  
+  <g stroke="#2A2420" stroke-width="1.2" stroke-opacity="0.25" fill="none">
+    <polygon points="400,90 150,220 650,220"/>
+    <rect x="180" y="220" width="440" height="260"/>
+    <line x1="180" y1="350" x2="620" y2="350" stroke-dasharray="3,3"/>
+    <!-- Double height glazed opening -->
+    <rect x="330" y="220" width="140" height="260" stroke="#B4573A" stroke-opacity="0.4"/>
+    <line x1="400" y1="220" x2="400" y2="480" stroke="#B4573A" stroke-opacity="0.3"/>
+    <line x1="330" y1="310" x2="470" y2="310" stroke="#B4573A" stroke-opacity="0.3"/>
+    <line x1="330" y1="400" x2="470" y2="400" stroke="#B4573A" stroke-opacity="0.3"/>
+    <!-- Terrace pergola -->
+    <line x1="190" y1="220" x2="290" y2="220" stroke-width="3"/>
+    <line x1="210" y1="190" x2="210" y2="220"/>
+    <line x1="240" y1="190" x2="240" y2="220"/>
+    <line x1="270" y1="190" x2="270" y2="220"/>
+  </g>
+
+  <rect x="250" y="250" width="300" height="74" rx="8" fill="#FAF6F0" fill-opacity="0.95" stroke="#E3DAD0" stroke-width="1"/>
+  <text x="400" y="280" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="600" fill="#2A2420" text-anchor="middle">Bungalows &amp; Luxury Villas</text>
+  <text x="400" y="304" font-family="'Inter', sans-serif" font-size="11" font-weight="500" fill="#B4573A" text-anchor="middle" letter-spacing="1">ALIGN ARCHITECTURE &amp; INTERIORS</text>
+</svg>

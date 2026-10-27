@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgReno" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6F0"/>
+      <stop offset="100%" stop-color="#F1E9DD"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgReno)"/>
+  
+  <g stroke="#2A2420" stroke-width="1.2" stroke-opacity="0.25" fill="none">
+    <!-- Split view: Before renovation wireframe & After renovation finishes -->
+    <line x1="400" y1="80" x2="400" y2="520" stroke="#B4573A" stroke-dasharray="4,4"/>
+    <!-- Left wireframe -->
+    <rect x="140" y="160" width="220" height="280" stroke-opacity="0.2"/>
+    <line x1="140" y1="280" x2="360" y2="280" stroke-opacity="0.2"/>
+    <text x="250" y="140" font-family="'Inter', sans-serif" font-size="12" fill="#8C827A" text-anchor="middle">PRIOR LAYOUT</text>
+    <!-- Right finished layout -->
+    <rect x="440" y="160" width="220" height="280" stroke="#B4573A" stroke-opacity="0.4"/>
+    <rect x="460" y="240" width="180" height="80" stroke="#2A2420" stroke-opacity="0.3"/>
+    <text x="550" y="140" font-family="'Inter', sans-serif" font-size="12" fill="#B4573A" text-anchor="middle">REIMAGINED SPACE</text>
+  </g>
+
+  <rect x="260" y="250" width="280" height="74" rx="8" fill="#FAF6F0" fill-opacity="0.95" stroke="#E3DAD0" stroke-width="1"/>
+  <text x="400" y="280" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="600" fill="#2A2420" text-anchor="middle">Space Renovations</text>
+  <text x="400" y="304" font-family="'Inter', sans-serif" font-size="11" font-weight="500" fill="#B4573A" text-anchor="middle" letter-spacing="1">ALIGN ARCHITECTURE &amp; INTERIORS</text>
+</svg>

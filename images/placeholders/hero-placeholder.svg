@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6F0"/>
+      <stop offset="60%" stop-color="#F1E9DD"/>
+      <stop offset="100%" stop-color="#E5DAC9"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2A2420" stroke-width="0.75" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#warmBg)"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+
+  <!-- Architectural linework / Spatial Perspective -->
+  <g stroke="#2A2420" stroke-width="1.5" stroke-opacity="0.25" fill="none">
+    <!-- Room perspective lines -->
+    <line x1="150" y1="120" x2="350" y2="260"/>
+    <line x1="1050" y1="120" x2="850" y2="260"/>
+    <line x1="150" y1="680" x2="350" y2="540"/>
+    <line x1="1050" y1="680" x2="850" y2="540"/>
+
+    <!-- Inner room boundary -->
+    <rect x="350" y="260" width="500" height="280" stroke-dasharray="4,4"/>
+    
+    <!-- Horizon & Floor planes -->
+    <line x1="350" y1="440" x2="850" y2="440" stroke-opacity="0.15"/>
+    <line x1="430" y1="540" x2="280" y2="680"/>
+    <line x1="560" y1="540" x2="480" y2="680"/>
+    <line x1="680" y1="540" x2="680" y2="680"/>
+    <line x1="770" y1="540" x2="880" y2="680"/>
+
+    <!-- Window opening -->
+    <rect x="390" y="290" width="160" height="180" stroke-width="1.2"/>
+    <line x1="470" y1="290" x2="470" y2="470"/>
+    <line x1="390" y1="380" x2="550" y2="380"/>
+
+    <!-- Architectural Furniture Silhouette -->
+    <!-- Minimalist credenza -->
+    <rect x="620" y="440" width="180" height="70" stroke-width="1.5" stroke="#B4573A" stroke-opacity="0.5"/>
+    <line x1="680" y1="440" x2="680" y2="510" stroke="#B4573A" stroke-opacity="0.4"/>
+    <line x1="740" y1="440" x2="740" y2="510" stroke="#B4573A" stroke-opacity="0.4"/>
+
+    <!-- Pendant lighting -->
+    <line x1="600" y1="120" x2="600" y2="220" stroke="#B4573A" stroke-opacity="0.6"/>
+    <circle cx="600" cy="235" r="15" stroke="#B4573A" stroke-opacity="0.6"/>
+    <ellipse cx="600" cy="235" rx="35" ry="8" stroke="#B4573A" stroke-opacity="0.4"/>
+  </g>
+
+  <!-- Editorial Badge & Info -->
+  <rect x="420" y="340" width="360" height="120" rx="12" fill="#FAF6F0" fill-opacity="0.95" stroke="#E3DAD0" stroke-width="1"/>
+  <text x="600" y="380" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="600" fill="#2A2420" text-anchor="middle" letter-spacing="1">ALIGN ARCHITECTURE &amp; INTERIORS</text>
+  <text x="600" y="410" font-family="'Inter', -apple-system, sans-serif" font-size="13" font-weight="500" fill="#B4573A" text-anchor="middle" letter-spacing="2">PUNE, MAHARASHTRA</text>
+  <text x="600" y="435" font-family="'Inter', -apple-system, sans-serif" font-size="11" fill="#8C827A" text-anchor="middle">Local studio photography ready for drop-in (images/hero.jpg)</text>
+</svg>

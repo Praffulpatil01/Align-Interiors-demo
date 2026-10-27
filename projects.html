@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interior Design Portfolio | Align Interiors Pune</title>
+  <meta name="description" content="Explore residential and commercial interior design projects by Align Architecture &amp; Interiors, Pune. 2BHK, 3BHK flats, luxury villas, modular kitchens, and office interiors.">
+  <meta name="keywords" content="interior design portfolio Pune, 2BHK interior Pune, 3BHK interior Pune, luxury villa interior Pune, commercial office interior Pune, modular kitchen Pune, Align Interiors projects">
+  <link rel="canonical" href="https://aligninteriors.in/projects.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aligninteriors.in/projects.html">
+  <meta property="og:title" content="Interior Design Portfolio | Align Interiors Pune">
+  <meta property="og:description" content="Explore real living rooms, modular kitchens, bedrooms, and commercial spaces designed by Rakesh Dashpute in Pune.">
+  <meta property="og:image" content="https://aligninteriors.in/images/hero.jpg">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate icon" href="favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link" aria-label="Align Interiors Home">
+        <span class="brand-name">ALIGN INTERIORS</span>
+        <span class="brand-desc">Architecture &amp; Interiors</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="index.html#services" class="nav-link">Services</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="#video-tours" class="nav-link">Video Tours</a>
+        <a href="index.html#process" class="nav-link">Process</a>
+        <a href="index.html#reviews" class="nav-link">Reviews</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm header-quote-btn">Discuss Your Project</a>
+        <button type="button" class="menu-toggle" aria-label="Open mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-overlay" aria-hidden="true"></div>
+  <aside id="mobile-nav" class="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <nav>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+        <li><a href="index.html#services" class="mobile-nav-link">Services</a></li>
+        <li><a href="projects.html" class="mobile-nav-link active">Projects</a></li>
+        <li><a href="#video-tours" class="mobile-nav-link">Video Tours</a></li>
+        <li><a href="index.html#process" class="mobile-nav-link">Process</a></li>
+        <li><a href="index.html#reviews" class="mobile-nav-link">Reviews</a></li>
+        <li><a href="about.html" class="mobile-nav-link">About Studio</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-nav-footer">
+      <a href="contact.html" class="btn btn-primary">Book Consultation</a>
+      <div class="mobile-contact-info">
+        <p><strong>Align Architecture &amp; Interiors</strong></p>
+        <p>Erandwane, Pune, Maharashtra 411004</p>
+        <p>Opens: 10:30 AM | Tel: 097660 45538</p>
+      </div>
+    </div>
+  </aside>
+
+  <main id="main-content">
+    <!-- Portfolio Header Banner -->
+    <section class="section section-cream" style="padding-bottom: 2rem;" aria-labelledby="portfolio-title">
+      <div class="container text-center" style="max-width: 800px; margin: 0 auto;">
+        <span class="eyebrow">Studio Portfolio</span>
+        <h1 id="portfolio-title" class="section-title">Considered Spaces Across Pune</h1>
+        <p class="section-subtitle">
+          Every project is a study in proportion, natural light, tactile materials, and functional storage. Filter through our residential, commercial, kitchen, and bedroom assignments below. Click any project to open full-screen photographs and details.
+        </p>
+      </div>
+    </section>
+
+    <!-- Filters & Gallery Section -->
+    <section class="section section-sand" style="padding-top: 1rem;" aria-label="Project Gallery">
+      <div class="container">
+        <!-- Filter Tabs -->
+        <div id="project-filters" class="filter-bar" role="toolbar" aria-label="Filter projects by space type">
+          <button type="button" class="filter-btn active" data-filter="all">All Projects</button>
+          <button type="button" class="filter-btn" data-filter="apartments">Apartments</button>
+          <button type="button" class="filter-btn" data-filter="bungalows">Bungalows</button>
+          <button type="button" class="filter-btn" data-filter="commercial">Commercial</button>
+          <button type="button" class="filter-btn" data-filter="kitchens">Kitchens</button>
+          <button type="button" class="filter-btn" data-filter="bedrooms">Bedrooms</button>
+        </div>
+
+        <!-- Dynamic Grid Container -->
+        <div id="projects-gallery-grid" class="projects-gallery-grid" aria-live="polite">
+          <!-- Populated dynamically by js/projects.js from data/site-data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Tours Section -->
+    <section id="video-tours" class="section section-charcoal video-showcase-section" aria-labelledby="video-heading">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow" style="color: #DFA18B;">Watch In Motion</span>
+          <h2 id="video-heading" class="section-title" style="color: var(--color-cream);">Project Walkthrough Tours</h2>
+          <p class="section-subtitle" style="color: var(--color-sand-muted);">Take an authentic walk through completed Pune residences, custom modular kitchens, and carpentry finishes.</p>
+        </div>
+
+        <div class="video-grid">
+          <article class="video-card" data-video-id="dOWvShacZAQ" tabindex="0" role="button" aria-label="Watch video: Inside a Stylish 3BHK">
+            <div class="video-thumb-wrap">
+              <img src="images/hero.jpg" alt="Video thumbnail: Inside a Stylish 3BHK" loading="lazy" width="400" height="225">
+              <div class="video-play-btn" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <span class="video-badge">3BHK Tour</span>
+            </div>
+            <div class="video-body">
+              <span class="video-tag">Apartment Tour</span>
+              <h3 class="video-card-title">Inside a Stylish 3BHK Where Every Detail Matters</h3>
+              <span class="video-location">Pimpri-Chinchwad, Pune</span>
+            </div>
+          </article>
+
+          <article class="video-card" data-video-id="AF9hIb1qsPs" tabindex="0" role="button" aria-label="Watch video: Modern 2BHK Apartment Interior Tour">
+            <div class="video-thumb-wrap">
+              <img src="images/projects/project-2.jpg" alt="Video thumbnail: Modern 2BHK Apartment" loading="lazy" width="400" height="225">
+              <div class="video-play-btn" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <span class="video-badge">2BHK Tour</span>
+            </div>
+            <div class="video-body">
+              <span class="video-tag">Prabhat Road</span>
+              <h3 class="video-card-title">Modern 2BHK Apartment Interior Tour</h3>
+              <span class="video-location">Prabhat Road, Pune</span>
+            </div>
+          </article>
+
+          <article class="video-card" data-video-id="xB0in24VyzQ" tabindex="0" role="button" aria-label="Watch video: Luxurious 3BHK in Dhanori">
+            <div class="video-thumb-wrap">
+              <img src="images/projects/bungalow-villa.jpg" alt="Video thumbnail: Luxurious 3BHK in Dhanori" loading="lazy" width="400" height="225">
+              <div class="video-play-btn" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <span class="video-badge">Turnkey 3BHK</span>
+            </div>
+            <div class="video-body">
+              <span class="video-tag">Dhanori Residence</span>
+              <h3 class="video-card-title">Explore a Luxurious 3BHK in Dhanori, Pune</h3>
+              <span class="video-location">Dhanori, Pune</span>
+            </div>
+          </article>
+
+          <article class="video-card" data-video-id="c1r-nQM7qjM" tabindex="0" role="button" aria-label="Watch video: Beautiful 3 BHK Home Tour">
+            <div class="video-thumb-wrap">
+              <img src="images/projects/apartment-living.jpg" alt="Video thumbnail: Beautiful 3 BHK Home Tour" loading="lazy" width="400" height="225">
+              <div class="video-play-btn" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <span class="video-badge">Living &amp; Kitchen</span>
+            </div>
+            <div class="video-body">
+              <span class="video-tag">Full Home Walkthrough</span>
+              <h3 class="video-card-title">A Beautiful 3 BHK Home Tour You'll Love</h3>
+              <span class="video-location">Pune City</span>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.75rem;">
+          <a href="https://www.youtube.com/@aligninteriorsbyrakeshdashpute" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            Visit Official YouTube Channel
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom CTA Banner -->
+    <section class="section section-cream" aria-labelledby="cta-heading">
+      <div class="container text-center" style="max-width: 680px; margin: 0 auto;">
+        <span class="eyebrow">Start Your Project</span>
+        <h2 id="cta-heading" class="section-title">Have a space in Pune ready for thoughtful design?</h2>
+        <p class="section-subtitle" style="margin-bottom: 2rem;">Whether you are taking possession of a new 2BHK/3BHK flat or planning an extensive commercial renovation, let's discuss your timeline and budget.</p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="contact.html" class="btn btn-primary btn-lg">Book a Consultation</a>
+          <a href="tel:+919766045538" class="btn btn-secondary btn-lg">Call 097660 45538</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- LIGHTBOX MODAL -->
+  <div id="project-lightbox" class="lightbox-modal" role="dialog" aria-modal="true" aria-label="Project Details Lightbox">
+    <div class="lightbox-dialog">
+      <button type="button" class="lightbox-close-btn" aria-label="Close Lightbox (Escape)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="lightbox-image-area">
+        <button type="button" class="lightbox-nav-btn lightbox-prev" aria-label="Previous project (Left Arrow)">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" alt="Align Interiors project preview" class="lightbox-img">
+
+        <button type="button" class="lightbox-nav-btn lightbox-next" aria-label="Next project (Right Arrow)">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+
+      <div class="lightbox-details">
+        <span class="lightbox-tag"></span>
+        <h3 class="lightbox-title"></h3>
+        <p class="lightbox-caption"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIDEO MODAL PLAYER -->
+  <div id="video-modal" class="video-modal" role="dialog" aria-modal="true" aria-label="Project Video Tour">
+    <div class="video-modal-dialog">
+      <button type="button" id="video-modal-close" class="video-modal-close" aria-label="Close Video (Escape)">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        Close
+      </button>
+      <div class="video-modal-frame">
+        <iframe id="video-modal-iframe" title="Align Interiors Project Walkthrough Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Floating Call & WhatsApp Actions -->
+  <aside class="mobile-floating-actions" aria-label="Quick Contact Actions">
+    <a href="tel:+919766045538" class="floating-action-btn floating-call" aria-label="Call Align Interiors">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>Call Studio</span>
+    </a>
+    <a href="https://wa.me/919766045538?text=Hello%20Align%20Interiors%2C%20I%20would%20like%20to%20discuss%20an%20interior%20design%20project%20in%20Pune." target="_blank" rel="noopener noreferrer" class="floating-action-btn floating-whatsapp" aria-label="Chat on WhatsApp">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+  </aside>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <p class="footer-brand-title">ALIGN INTERIORS</p>
+          <p class="footer-brand-desc">Architecture &amp; Interiors</p>
+          <p class="footer-tagline">&ldquo;Thoughtfully designed. Beautifully lived in.&rdquo;</p>
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <a href="https://www.instagram.com/aligninteriorsbyrakesh/" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              <span>Instagram</span>
+            </a>
+            <a href="https://www.youtube.com/@aligninteriorsbyrakeshdashpute" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              <span>YouTube</span>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="projects.html" class="footer-link">Portfolio</a></li>
+            <li><a href="about.html" class="footer-link">About Studio</a></li>
+            <li><a href="#video-tours" class="footer-link">Video Walkthroughs</a></li>
+            <li><a href="index.html#process" class="footer-link">Our Process</a></li>
+            <li><a href="index.html#reviews" class="footer-link">Client Reviews</a></li>
+            <li><a href="contact.html" class="footer-link">Contact &amp; Location</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html#services" class="footer-link">2BHK &amp; 3BHK Apartments</a></li>
+            <li><a href="index.html#services" class="footer-link">Bungalows &amp; Luxury Villas</a></li>
+            <li><a href="index.html#services" class="footer-link">Commercial &amp; Offices</a></li>
+            <li><a href="index.html#services" class="footer-link">Hotels &amp; Restaurants</a></li>
+            <li><a href="index.html#services" class="footer-link">Custom Millwork &amp; Furniture</a></li>
+            <li><a href="index.html#services" class="footer-link">Home Renovations</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Studio Location</h4>
+          <div class="footer-contact-block">
+            <p>Estonia Office No. 504-B, Gulawani Maharaj Road, opposite Mehendale Garage, Erandwane, Pune, Maharashtra 411004, India.</p>
+          </div>
+          <div class="footer-contact-block">
+            <p>Phone: <a href="tel:+919766045538">097660 45538</a></p>
+            <p>WhatsApp: <a href="https://wa.me/919766045538" target="_blank" rel="noopener noreferrer">+91 97660 45538</a></p>
+            <p>Opens: 10:30 AM</p>
+            <div style="margin-top: 0.85rem;">
+              <a href="https://www.google.com/maps?cid=3964990284371836881" target="_blank" rel="noopener noreferrer" class="footer-gmap-pill" aria-label="View Align Interiors on Google Maps Verified Listing">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Google Maps Verified Listing (CID: 3964990284371836881)</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2026</span> Align Architecture &amp; Interiors. All rights reserved.</p>
+        <p>Lead Designer: Rakesh Dashpute &bull; Erandwane, Pune, Maharashtra</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data/site-data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+# Dependencies and environments
+node_modules/
+.env
+.env.local
+
+# Python cache & tests
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Raw image backups
+images/projects/raw_backup/

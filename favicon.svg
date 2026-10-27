@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#2A2420"/>
+  <rect x="3" y="3" width="58" height="58" rx="11" fill="none" stroke="#FAF6F0" stroke-width="1.5" stroke-opacity="0.2"/>
+  <!-- Stylized A monogram -->
+  <path d="M 32 14 L 18 50 L 25 50 L 28.5 40 L 35.5 40 L 39 50 L 46 50 Z M 32 23.5 L 34.3 35 L 29.7 35 Z" fill="#FAF6F0"/>
+  <!-- Terracotta precision accent line -->
+  <line x1="24" y1="37" x2="40" y2="37" stroke="#B4573A" stroke-width="2" stroke-linecap="round"/>
+</svg>

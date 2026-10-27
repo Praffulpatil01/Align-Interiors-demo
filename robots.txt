@@ -1,0 +1,6 @@
+# robots.txt for Align Interiors
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://aligninteriors.in/sitemap.xml
